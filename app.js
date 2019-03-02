@@ -11,7 +11,7 @@ const serviceAccount = require("./cfm-spreadsheet-firebase-adminsdk-dfwuc-e16827
 // TODO: Enter your database url from firebase
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://<cfm-spreadsheet>.firebaseio.com/"
+  databaseURL: "https://cfm-spreadsheet.firebaseio.com/"
 });
 
 // Setup
